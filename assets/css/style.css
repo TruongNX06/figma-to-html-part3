@@ -308,3 +308,54 @@ header {
 .work_info .box:hover a {
   color: #2e80ce;
 }
+
+/* phần about */
+.body_about {
+  background-color: rgb(204, 190, 190);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body_about .box {
+  width: 48.71%;
+  position: relative;
+
+  height: 491px;
+}
+.body_about .img1 {
+  width: 89.82%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.body_about .img2 {
+  width: 58.24%;
+  position: absolute;
+  height: 370px;
+  object-fit: cover;
+  bottom: 0;
+  right: 0;
+}
+/*  */
+
+.body_about .info {
+  width: 40.17%;
+}
+.body_about .info h1 {
+  color: var(--color-bg);
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: -2%;
+  margin-top: 20px;
+}
+.body_about .info p {
+  color: var(--color);
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+.body_about .info a {
+  margin-top: 45px;
+}
