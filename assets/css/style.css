@@ -4,6 +4,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
@@ -12,6 +13,10 @@ body {
 /* common */
 a {
   text-decoration: none;
+}
+:root {
+  --color-bg: #10375c;
+  --color: #575f66;
 }
 .btn {
   display: flex;
@@ -34,7 +39,7 @@ a {
 
 /* header */
 header {
-  background-color: #10375c;
+  background-color: var(--color-bg);
 }
 
 .header_top {
@@ -154,5 +159,88 @@ header {
   width: 39.32%;
   position: relative;
   left: -5px;
-  /* overflow: hidden; */
+}
+
+/* phần services */
+.body_service {
+  margin: 130px 0 100px;
+}
+.service_top {
+  width: 40%;
+  margin: 0 auto;
+}
+.service_top h1 {
+  color: var(--color-bg);
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+.service_top p {
+  color: var(--color);
+  font-size: 1.8rem;
+  line-height: 30px;
+  font-weight: 300;
+  margin-top: 10px;
+  text-align: center;
+}
+.service_content {
+  padding: 50px 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service_content .img {
+  width: 48.71%;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: top;
+}
+/*  */
+.service_content .desc {
+  width: 40.17%;
+}
+.service_content .box {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.service_content .box_icon {
+  width: 60px;
+  height: 60px;
+  background-color: #eff6fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  flex-shrink: 0;
+}
+.service_content .box:hover {
+  box-shadow: 10px 5px 10px rgb(235, 220, 220);
+  transform: translateY(-10px);
+}
+
+.service_content .box:hover .box_icon {
+  background-color: #2e80ce;
+  color: #fff;
+}
+.service_content .detail {
+  margin-left: 10px;
+}
+.service_content .detail h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--color-bg);
+}
+.service_content .detail p {
+  color: var(--color);
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 28px;
+}
+.service_content a {
+  margin-top: 80px;
 }
