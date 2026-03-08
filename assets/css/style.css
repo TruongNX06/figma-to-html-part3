@@ -186,7 +186,7 @@ header {
   text-align: center;
 }
 .service_content {
-  padding: 50px 0 200px;
+  padding: 50px 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -243,4 +243,68 @@ header {
 }
 .service_content a {
   margin-top: 80px;
+}
+
+/* phần work */
+.work {
+  margin-top: 150px;
+  background-color: #f6fbff;
+  padding-top: 1px;
+}
+.body_work {
+  /* background-color: rgb(214, 204, 204); */
+  padding: 90px 0;
+}
+.work_top {
+}
+.work_top h1 {
+  color: var(--color-bg);
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: -2%;
+}
+.work_top p {
+  color: var(--color);
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 30px;
+  width: 40%;
+  margin-top: 10px;
+}
+.work_info {
+  display: grid;
+  grid-template-columns: repeat(3, 31.62%);
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.work_info .box {
+  border: 10px solid #eaf6ff;
+  padding: 30px 30px 20px;
+}
+.work_info .box h2 {
+  color: var(--color-bg);
+  font-size: 2.6rem;
+  line-height: 36px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.work_info .box p {
+  color: var(--color);
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+.work_info .box a {
+  display: inline-block;
+  margin: 20px 0 20px;
+  color: #575f66;
+}
+.work_info .box:hover {
+  border: 10px solid #2e80ce;
+  transform: translateY(-10px);
+}
+.work_info .box:hover a {
+  color: #2e80ce;
 }
