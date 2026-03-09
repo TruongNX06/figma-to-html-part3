@@ -367,9 +367,9 @@ header {
 .team_top {
   margin: 0 auto;
   /* text-align: center; */
-  width: 38.46%;
 }
 .team_top h1 {
+  text-align: center;
   font-weight: 600;
   font-size: 5rem;
   line-height: 60px;
