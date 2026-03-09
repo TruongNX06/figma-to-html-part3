@@ -508,3 +508,100 @@ header {
 .body_cta .info .box_parents .box .detail p:last-child {
   font-size: 1.7rem;
 }
+
+/* phần blog */
+.body_blog {
+  /* background-color: rgb(214, 195, 195); */
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+}
+.body_blog .title {
+  margin-right: auto;
+  width: 40.17%;
+}
+.body_blog .title h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: var(--color-bg);
+}
+.body_blog .title a {
+  color: var(--color-bg);
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 28px;
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 22px;
+}
+.body_blog .title .direction {
+  display: flex;
+  width: 90px;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.body_blog .title .direction span {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color);
+  border: 1px solid var(--color);
+  border-radius: 50%;
+}
+.body_blog .title .direction span:hover {
+  background-color: var(--color-bg);
+  color: #fff;
+}
+
+/*  */
+
+.body_blog .content {
+  display: flex;
+  width: 49.8%;
+  justify-content: space-between;
+}
+.body_blog .content .box {
+  width: 46.15%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e8ebee;
+}
+.body_blog .content .img {
+  width: 100%;
+}
+
+.body_blog .content .box h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: var(--color-bg);
+  margin: 10px 0 13px 17px;
+}
+.body_blog .content .box p {
+  color: var(--color);
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 24px;
+  margin: 0px 0 13px 17px;
+}
+.body_blog .content .box a {
+  font-size: 1.4rem;
+  color: var(--color-bg);
+  margin-left: 17px;
+  margin-bottom: 18px;
+  display: inline-block;
+}
+.body_blog .content .box:hover {
+  box-shadow: 10px 10px 30px rgb(202, 192, 192);
+}
+.body_blog .content .box:hover .img {
+  transform: scale(1.1);
+}
+.body_blog .content .box:hover a {
+  color: #2e80ce;
+}
