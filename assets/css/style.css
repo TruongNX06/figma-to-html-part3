@@ -605,3 +605,39 @@ header {
 .body_blog .content .box:hover a {
   color: #2e80ce;
 }
+
+/* phần cta */
+.body_appointment {
+  background-color: #f6fbff;
+  text-align: center;
+  margin-top: 110px;
+  padding-top: 1px;
+  height: 452px;
+}
+.body_appointment h1 {
+  color: var(--color-bg);
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: -2%;
+  width: 69.48%;
+  margin: 70px auto 0;
+}
+.body_appointment hr {
+  color: #2e80ce;
+  width: 11.62%;
+  height: 2px;
+  margin: 15px auto 0;
+  border: 1px solid #2e80ce;
+}
+.body_appointment p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: var(--color);
+  width: 52.73%;
+  margin: 20px auto 40px;
+}
+.body_appointment .btn_appointment {
+  margin: 0 auto;
+}
