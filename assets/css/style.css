@@ -641,3 +641,119 @@ header {
 .body_appointment .btn_appointment {
   margin: 0 auto;
 }
+
+/* footer */
+footer {
+  padding-top: 1px;
+  margin-top: 150px;
+  background-color: var(--color-bg);
+}
+.body_footer {
+  margin-top: 110px;
+  font-family: "Open Sans", sans-serif;
+}
+.body_footer .box {
+  display: grid;
+  grid-template-columns: 28.71% 11.45% 11.45% 28.37%;
+  justify-content: space-between;
+}
+.body_footer .logo {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.body_footer .logo_name {
+  color: #fff;
+  margin-left: 10px;
+  text-align: right;
+}
+.body_footer .logo_name p:first-child {
+  font-size: 1.8rem;
+  line-height: 14px;
+}
+.body_footer .logo_name p:last-child {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 14px;
+}
+.body_footer h1 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #fff;
+}
+.body_footer p {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  line-height: 28px;
+}
+.body_footer hr {
+  border: 1px solid #406181;
+  margin-top: 20px;
+}
+.body_footer .icon {
+  display: flex;
+  justify-content: space-between;
+  width: 34.94%;
+  margin-top: 20px;
+}
+.body_footer .fa-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #2e80ce;
+}
+.body_footer .fa-brands:hover {
+  background-color: #2e80ce;
+  color: #fff;
+}
+#Subscribe {
+  width: 82.22%;
+}
+.body_footer .inform {
+  display: flex;
+  height: 46px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.body_footer .inform p {
+  border: 1px solid #406181;
+  display: flex;
+  height: 46px;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 4px;
+  width: 66.56%;
+  color: #9ca8b1;
+}
+.body_footer .inform a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32.53%;
+  height: 46px;
+  font-weight: 600;
+  background-color: #2e80ce;
+  border-radius: 4px;
+  color: #fff;
+}
+.body_footer hr + p {
+  color: #aab3ba;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+.body_footer .logo + p,
+.body_footer .box2 p,
+.body_footer .box3 p,
+.body_footer .box4 h1 + p {
+  margin-top: 10px;
+}
+.body_footer p + h1,
+.body_footer .icon + h1 {
+  margin-top: 20px;
+}
